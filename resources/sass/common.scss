@@ -1,0 +1,76 @@
+@import url("//fonts.googleapis.com/earlyaccess/notosanskr.css");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+::after,
+::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: $text-color;
+    background-color: $bg-color;
+}
+html,
+body {
+    min-width: 320px;
+}
+a {
+    text-decoration: none;
+    vertical-align: middle;
+    color: #000;
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active,
+a[href^="tel"] {
+    text-decoration: none;
+}
+li,
+ol,
+ul {
+    list-style: none;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+img {
+    vertical-align: middle;
+    border: 0;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    -ms-touch-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

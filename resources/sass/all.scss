@@ -1,0 +1,9 @@
+$brand-color: #6e4ef7;
+$text-color: #333;
+$sub-text-color: #999;
+$bg-color: #f7f7f7;
+
+@import "common.scss";
+@import "layout.scss";
+@import "responsive.scss";
+@import "pages/main.scss";
